@@ -67,22 +67,22 @@ The data model unifies 4 raw CSV sources, a calculated calendar dimension, and d
 ```mermaid
 flowchart TD
     subgraph Dimensions
-        C[Campaigns Dim<br/>50 Campaigns | Budget & Duration]
-        A[Ads Dim<br/>200 Creatives | Format, Platform, Target]
-        U[Users Dim<br/>9,841 Users | Age, Gender, Country, Interests]
-        D[Calendar Table Dim<br/>Date, Month, Weekday, Week Number]
-        P[Select Dynamic Measure<br/>Field Parameter Switcher]
+        C["Campaigns Dim - 50 Campaigns (Budget & Duration)"]
+        A["Ads Dim - 200 Creatives (Format, Platform, Target)"]
+        U["Users Dim - 9,841 Users (Age, Gender, Country)"]
+        D["Calendar Table Dim - Date, Month, Weekday"]
+        P["Select Dynamic Measure - Field Parameter Switcher"]
     end
 
     subgraph Fact
-        F[ad_events Fact<br/>400,000 Interaction Logs<br/>Impressions, Clicks, Purchases, Shares, Comments]
+        F["ad_events Fact - 400,000 Interaction Logs"]
     end
 
-    C -->|1:N (campaign_id)| A
-    A -->|1:N (ad_id)| F
-    U -->|1:N (user_id)| F
-    D -->|1:N (event_date)| F
-    P -.->|Parameter Binding| F
+    C -->|"1:N (campaign_id)"| A
+    A -->|"1:N (ad_id)"| F
+    U -->|"1:N (user_id)"| F
+    D -->|"1:N (event_date)"| F
+    P -.->|"Parameter Binding"| F
 ```
 
 ### Table Specifications:
