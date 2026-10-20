@@ -1,0 +1,15 @@
+# Core Analytics & BI Environment
+# Business Intelligence:
+# - Microsoft Power BI Desktop (June 2024 or later)
+# - DAX Studio (for measure tuning)
+#
+# Database Engines:
+# - PostgreSQL 14+ / 15+ / 16+
+# - MySQL 8.0+
+#
+# Optional Python Data Validation Environment:
+pandas>=2.0.0
+numpy>=1.24.0
+psycopg2-binary>=2.9.9
+sqlalchemy>=2.0.0
+openpyxl>=3.1.2

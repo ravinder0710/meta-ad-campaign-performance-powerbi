@@ -1,0 +1,21 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+.vscode/
+.idea/
+
+# Power BI temporary & cache files
+~$*.xlsx
+~$*.csv
+*.tmp
+*.pbix.temp
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
