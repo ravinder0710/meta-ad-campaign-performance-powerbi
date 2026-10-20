@@ -223,6 +223,34 @@ meta-ad-campaign-performance-powerbi/
 
 ---
 
+## 📂 Repository Structure
+```text
+meta-ad-campaign-performance-powerbi/
+│
+├── Facebook & Instagram Analysis.pbix                                # Master Power BI Multi-Platform Dashboard
+│
+├── sql/                                                              # Analytical SQL transformation scripts
+│   └── Meta_Ad_Performance_Analysis.sql                              # 12 Cross-Platform Funnel & Attribution Queries
+│
+├── data/                                                             # Normalized multi-platform campaign data
+│   ├── ad_events.csv                                                 # 400,000 Transactional impression & conversion logs
+│   ├── ads.csv                                                       # 200 Creative variants (Formats, Target, Channel)
+│   ├── campaigns.csv                                                 # 50 Campaigns (Budget, Objective, Duration)
+│   └── users.csv                                                     # 9,841 User demographic profiles
+│
+├── assets/                                                           # Visual assets & executive previews
+│   ├── meta_ad_facebook_dashboard.png                                # View 1: Facebook Campaign Performance & Funnel
+│   ├── meta_ad_instagram_dashboard.png                               # View 2: Instagram Placement & Attribution Matrix
+│   └── meta_ad_calendar_tooltip.png                                  # View 3: Day-Level Engagement Heatmap Tooltip
+│
+├── data_architecture_pipeline.png                                    # Multi-Table Snowflake Schema & ETL Pipeline
+├── requirements.txt                                                  # Environment prerequisites
+├── .gitignore                                                        # Ignores temp files and caches
+└── README.md                                                         # Master campaign analysis & ROAS optimization report
+```
+
+---
+
 ## 🚀 How to Run & Replicate
 
 ### 1. Power BI Desktop Exploration
