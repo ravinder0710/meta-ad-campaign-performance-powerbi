@@ -250,9 +250,8 @@ meta-ad-campaign-performance-powerbi/
 *Data Analyst | SQL · Power BI · DAX · Python · Advanced Excel*
 
 * 📧 **Email**: [iamravindergupta17@gmail.com](mailto:iamravindergupta17@gmail.com)
-* 💬 **WhatsApp**: [+91 9982637026](https://wa.me/919982637026?text=Hi%20Ravinder,%20saw%20your%20Meta%20Ad%20Performance%20Dashboard)
 * 💼 **GitHub**: [github.com/ravinder0710](https://github.com/ravinder0710)
-* 📍 **Location**: Alwar, Rajasthan, India
+* 📍 **Location**: Gurugram (Delhi-NCR), India
 
 ---
 *Developed with a commitment to data integrity, scalable modeling, and actionable business intelligence.*
